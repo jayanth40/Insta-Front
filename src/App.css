@@ -1,0 +1,102 @@
+nav{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  background-color: rgb(244, 249, 249);
+  
+}
+.insta{
+  font-size: 30px;
+  margin: 0px;
+  font-family: cursive;
+  color: rgb(39, 68, 11);
+}
+.camera{
+  margin-left: 650px;
+  width: 50px;
+  height: 50px;
+}
+.clone{
+  margin-left: 100px;
+ 
+}
+.card-container{
+  width: 300px;
+  height:270px;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 37%;
+}
+.user-name h5{
+  margin: 0px;
+  margin-top: 6px;
+  margin-left: 15px;
+}
+.user-name p{
+  font-size: 11px;
+  margin: 0px;
+  margin-left: 15px;
+  color: rgb(131, 133, 135);
+}
+.dots{
+  margin: 0px;
+  margin-left: 190px;
+  margin-top: 7px;
+}
+.heart-box{
+  display: flex;
+}
+.heart-box p{
+  margin: 0px;
+  font-size: 11px;
+  
+  margin-left: 190px;
+  color: rgb(131, 133, 135);
+}
+.heart-box img{
+  margin-left: 5px;
+}
+.likes{
+  margin: 0px;
+  font-size: 11px;
+  
+  margin-left: 15px;
+  color: rgb(131, 133, 135);
+}
+.tag{
+  margin: 0px;
+  margin-left: 15px;
+}
+.home{
+  display: flex;
+  
+}
+.home-section{
+  align-items: center;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+  align-self: center;
+  color: rgb(36, 238, 171);
+}
+.post{
+  width: 50px;
+  height: 50px;
+}
+
+.form{
+  border: 1px solid black;
+  width: 350px;
+  background-color: rgb(187, 206, 206);
+  margin-left: 500px;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+.Fbut{
+  align-items: center;
+  margin-left: 150px;
+}
