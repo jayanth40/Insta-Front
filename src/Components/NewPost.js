@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useHistory } from "react-router-dom";
 
 
 function NewPost() {
+  const history = useHistory()
   const [file, setFile] = useState(null);
   const [description, setDescription] = useState("")
   const [author, setAuthor] = useState("");
@@ -21,7 +23,7 @@ function NewPost() {
    formData.append("description",description)
     formData.append("author", author);
     formData.append("city", city);
-   
+   history.push("/post-view")
     
     setAuthor('');
     setCity('');
