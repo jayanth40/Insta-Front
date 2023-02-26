@@ -75,7 +75,8 @@ function NewPost() {
           required
         />
       </div>
-     <button type="submit" className="Fbut">Submit </button>
+     <button type="submit" className="Fbut">Post</button>
+ <p>Note: To view posts please go back</p>
     </form>
     
   );
